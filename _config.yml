@@ -1,0 +1,19 @@
+# _config.yml
+title: PKM
+# Plugins
+plugins:
+  - jekyll-katex
+  - jekyll-default-layout
+  - jekyll-relative-links
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-optional-front-matter
+# The default Jekyll theme
+# theme: chirpy  
+# theme: lanyon  
+theme: jekyll-theme-primer
+# The GitHub repository that is hosting the foam workspace
+repository: areid987/foam
+# Formatting for permalinks: 
+# - https://jekyllrb.com/docs/permalinks/#built-in-formats
+permalink: pretty

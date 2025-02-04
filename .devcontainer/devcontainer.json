@@ -1,0 +1,32 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:latest",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:latest": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "foam.foam-vscode",
+                "ms-vscode.markdown-language-features",
+                "killalau.vscode-liquid-snippets",
+                "Shopify.theme-check-vscode",
+                "timonwong.shellcheck",
+                "mkhl.shfmt",
+                "EditorConfig.EditorConfig",
+                "esbenp.prettier-vscode",
+                "stylelint.vscode-stylelint",
+                "yzhang.markdown-all-in-one",
+                "mhutchie.git-graph"
+            ],
+            "onCreateCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+            "customizations": {
+                "vscode": {
+                    "settings": {
+                        "terminal.integrated.defaultProfile.linux": "zsh"
+                    }
+                }
+            }
+        }
+    }
+}
